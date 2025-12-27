@@ -1,0 +1,143 @@
+Name : 011025_control_ACSF_AAV_gfa_GCAMP6f_striatum_dorsal_40x_slice26_region1	09/09/2013	8:52:08 AM	
+
+Type : 16 bit grey/pseudo
+Intensity : 1.000000 lux
+x : 1024 * 1.000000 : um
+y : 1024 * 1.000000 : um
+Time : 5434
+
+
+[Environment]
+User=ACAL
+Configuration=Monochromator
+[Environment End]
+[Created]
+Date=09/09/2013
+Time=4:05:14 AM
+[Created End]
+[Protocol Description]
+Protocol - GCamp_Saj
+	Image - GCamp
+		Camera Binning - Use Current
+		Wait Allocation - Off
+		Camera Selection - Use Current
+		Events
+			Keyboard Events - On
+				Default name - Spacebar
+		Repeat T - 15000 times (125 ms)
+			Repeat - Channel (GFP)
+				Channel Description
+					Channel - GFP
+						Camera EM Gain - 142
+						Camera Binning X - CURRENT
+						Camera Binning Y - CURRENT
+						Camera Exposure Time (s) - 0.05
+						Camera Exposure Units - 1
+						DSD Imaging Mode - 3
+						LUT - Green
+						Map Min - 804
+						Map Max - 10616
+						CoolLED Intensity 1 - Current
+						CoolLED Intensity 2 - Current
+						CoolLED Intensity 3 - Current
+						CoolLED Intensity 4 - Current
+						CoolLED Pulsed Mode - 0
+						CoolLED Shutter - Current
+						CoolLED Wavelength - 0
+				Snap - Frame
+			End - Channel
+		End - T
+
+[Protocol Description End]
+[Grab Parameters]
+Camera=iXon Ultra
+Window Left=0
+Window Top=0
+Window Right=1023
+Window Bottom=1023
+Window Width=1024
+Window Height=1024
+BinningX=1
+BinningY=1
+Image Width=1024
+Image Height=1024
+Exposure=50.0 ms
+Rotation=0
+FlipV=0
+FlipH=1
+TimeStamps=Hardware
+[Grab Parameters End]
+[Tab Device Info]
+Camera=DU888_BV 10652
+ControllerCard=USB
+DriverVersion=2.98.33001.0
+CofVersion=0
+VxDVersion=0.0
+SoftwareTrigger=Supported
+BitDepth=16
+FPGA_Version=205.205
+Ocx_Version=5.4.15.0
+Ocx_Time=16:35:18 Jul 06 2015
+Ocx_File=C:\PROGRA~2\ANDORB~1\COMMON~1\KIDAND~1.OCX
+
+[Tab Device Info End]
+[Tab Exposure]
+Window=1024 : 1024
+Shutter=Open
+Binning=1 x 1
+Temperature - Actual =-60
+Display Control - Fastest=Unchecked
+Display Control - Display Rate=1
+Gains - Pre-Amp-Gain=Gain 2
+EM Gain - Enabled=Checked
+Gains - EMGain=142
+Exposure Time - Frame Transfer=Unchecked
+Exposure Time - unit=ms
+Exposure Time - exposure value=50.0
+Exposure Time - Readout in ms=63.870
+Experiment Control - FLZ=Unchecked
+Experiment Control - Trig Mode=Ext Trigger
+Use Frame averaging=Unchecked
+Frames to be averaged=2
+Fastest Grab=Unchecked
+Available memory=4095
+[Tab Exposure End]
+[Tab Temperature/Shutter]
+Temperature Setting=-60
+Actual Temperature=-60
+Cooling=Steady
+Fan=Full
+TTL High Open=Checked
+Shutter Open Transfer Time=0
+Shutter Close Transfer Time=0
+[Tab Temperature/Shutter End]
+[Tab Speed/Amplifer]
+Horizontal Readout=20.000
+Vertical Readout time=[2.200]
+ADC Channel=0
+Vertical Clock Voltage=Normal
+Output Amplifier=EM Port
+Baseline Clamp=Checked
+[Tab Speed/Amplifer End]
+[Tab Image Orientation]
+Flip=Horizontal
+Rotation in Degrees=None
+[Tab Image Orientation End]
+[Image Info]
+Window Left=0
+Window Top=0
+Window Right=1023
+Window Bottom=1023
+Window Width=1024
+Window Height=1024
+Window BinningX=1
+Window BinningY=1
+[Image Info End]
+[First Frame]
+SavedTime=9/9/2013 4:39:47 AM.420
+[First Frame End]
+[Event Markers]
+Marker 1=Spacebar
+Location 1=Wavelength(0(0)) Time(2565(480616.875)) 
+[Event Markers End]
+
