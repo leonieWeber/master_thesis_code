@@ -7,3 +7,5 @@ Analysis data resides in the `data` folder.
 
 Not necessary for the plots are the sequencing results of the plasmids I created. 
 Those reside in `data/sequencing_results`.
+
+My python environment can be recreated with `environment.yml` e.g. with `conda`.
